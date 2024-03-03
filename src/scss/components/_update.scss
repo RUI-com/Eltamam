@@ -1,0 +1,119 @@
+.specs{
+    &__container{
+        position: relative;
+    }
+    &__content{
+        row-gap: 1.5rem;
+    }
+    .swiper {
+    
+
+        position: relative;
+        width: 100%;
+    
+        
+       
+        .swiper-wrapper{
+            height: 90%;
+            position: relative;
+           
+            .swiper-slide  {
+          
+                text-align: center;
+                font-size: 18px;
+               
+              
+                /* Center slide text vertically */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                object-fit: cover;
+               
+            }
+              
+            } 
+        
+            .slider-button-div{
+            
+            display: flex;
+            justify-content: center;
+            position: absolute;
+           bottom: 0;
+           left: 0;
+           right: 0;
+          
+               .slidebutton:nth-child(2){
+                margin-left: 100px;
+               }
+               .slidebutton{
+                cursor: pointer;
+                z-index: 10;
+               }
+            }
+    }
+    .Update{
+      
+        position: relative;
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+       
+        font-size: 15px;
+        display: flex;
+        direction: rtl;
+        align-items: center;
+        .Update-image{
+            width: 100%;
+            height: 100%;
+            margin-left: 10px;
+            .Update_Data{
+              display: block;
+    
+              
+            }
+        }
+    }
+    .date{
+        display: flex;
+     
+      font-size: 9px;
+      width: 300px;
+    
+      }
+    .colmun{
+        display: flex;
+        margin-bottom: 10px;
+        
+        .date-icon{
+            margin-left: 10px;
+        }
+        .date-title{
+            margin-left: 5px;
+        }
+       
+    }
+    .Update_title{
+        font-size: 25px;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        
+        justify-content: right;
+        font-weight: bolder;
+        text-decoration: none;
+        color: var(--text-color);
+        img{
+            width: 50px;
+            margin-right: 5px;
+        }
+    }
+}
+@media screen and (max-width: 700px){
+    .specs .Update{
+        display: block;
+        
+    }
+}

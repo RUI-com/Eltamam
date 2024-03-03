@@ -1,0 +1,56 @@
+/*=============== NEWSLETTER ===============*/
+.newsletter{
+    margin-left: 10px;
+}
+.newsletter__bg {
+    background-image:url("../../../public/image/wallpaer-devise.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    padding: 3rem 1.5rem;
+    text-align: left;
+    row-gap: 2.5rem;
+
+  }
+  .data-newsletter{
+    width: 500px;
+   text-align: right;
+    direction: rtl;
+   
+       
+  }
+  .newsletter__title {
+    font-size: 30px;
+    color: var(--white-color);
+    margin-bottom: var(--mb-1-5);
+  }
+  
+ 
+
+    .newsletter__button{
+        background-color: transparent;
+        border: 2px solid var(--white-color);
+        color: var(--white-color);
+        width: 100px;
+
+        height: 50px;
+        padding: 5px 32px;
+        font-size: 25px;
+    }
+  
+
+  
+  
+ 
+    
+    @media screen and (max-width: 700px){
+        .newsletter__bg{
+            height: 800px;
+            background-image:url("../../../public/image/wallpaper-mobile.png");
+            
+            // background-position: center center;
+        }
+        .data-newsletter{
+          width: 350px;
+        }
+    }

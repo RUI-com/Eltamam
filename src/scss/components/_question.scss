@@ -1,0 +1,98 @@
+.specs{
+    &__container{
+        position: relative;
+    }
+    &__content{
+        row-gap: 1.5rem;
+    }
+    .swiper {
+    
+
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        
+        .swiper-slide  {
+          
+            text-align: center;
+            font-size: 18px;
+           
+          
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            object-fit: cover;
+            
+            .person{
+                background-color: var(--Card-color);
+                position: relative;
+                border-radius: 10px;
+                width: 600px;
+                padding: 20px;
+                .pesonal{
+                  
+                    text-align: left; 
+                    margin-bottom: 5px;
+                    .person-title{
+                        font-size: 18px;
+                    }
+                    .person-gop{
+                        font-size: 15px;   
+                    }
+    
+                }
+                .border-img{
+                    width: 70px;
+                    height: 70px;
+                    position: absolute;
+                    border-radius: 50%;
+                    top:-3rem;
+                    right: 0;
+                    text-align: center;
+                    background-color: white;
+                    .person-img{
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                .person-discription{
+                    text-align: right; 
+                    font-size: 15px; 
+                }
+               
+            }
+        
+        }
+        .swiper-wrapper{
+            height: 90%;
+            position: relative;
+           
+          
+            }   
+            .slider-button-div{
+            
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            bottom: 1rem;
+           left: 0;
+           right: 0;
+          
+               .slidebutton:nth-child(2){
+                margin-left: 100px;
+               }
+               .slidebutton{
+                cursor: pointer;
+                z-index: 10;
+               }
+            }
+          } 
+}
+
+      
+      
+
+  
+  
